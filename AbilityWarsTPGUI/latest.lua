@@ -116,7 +116,7 @@ local plr = game.Players.LocalPlayer
 local char = game.Workspace[plr.Name]
 
 closeButton.MouseButton1Click:connect(function() 
-	script.Parent.Parent:Destroy()
+	game.CoreGui.AbilityWarsTP:Destroy()
 end)
 
 adminArea.MouseButton1Click:connect(function() 
